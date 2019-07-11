@@ -25,6 +25,13 @@
       </plugin>
     </plugins>
   </build>
+  <servers>
+    <server>
+      <id>deployment</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+  </servers>
    <distributionManagement>
         <repository>
             <id>deployment</id>
